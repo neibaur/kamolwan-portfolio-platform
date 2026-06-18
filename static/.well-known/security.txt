@@ -1,3 +1,4 @@
 Contact: mailto:hello@kamolwan.com
+Expires: 2056-06-18T18:00:00.000Z
 Preferred-Languages: en
 Canonical: https://kamolwan.com/.well-known/security.txt
