@@ -24,5 +24,11 @@
     "markdownlint-cli2": "^0.22.1",
     "prettier": "^3.6.2",
     "tailwindcss": "^4.2.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "markdown-it": "14.2.0",
+      "js-yaml": "4.2.0"
+    }
   }
 }
