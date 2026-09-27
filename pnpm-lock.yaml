@@ -6,8 +6,9 @@ settings:
 
 overrides:
   markdown-it: 14.2.0
-  js-yaml: 4.3.0
+  js-yaml: 4.3.2
   linkify-it: 5.0.2
+  smol-toml@^1: 1.8.0
 
 importers:
   .:
@@ -659,10 +660,10 @@ packages:
       }
     hasBin: true
 
-  js-yaml@4.3.0:
+  js-yaml@4.3.2:
     resolution:
       {
-        integrity: sha512-1td788aAnnZ5qs7V2QIRl1owjtYpbKt749Y3xauqQgwIIGF/xXWz1wMTEBx5O3LK3lXLVuqXPdPxj2BoFHaW9Q==,
+        integrity: sha512-SFNOvSJ+Dgf/9An904Yx+CgSlIPCkIpao4qo51lpee25TIRejdH3rhR4EZMGoNx3/TP3O+wzWuiTFl4sqbltzA==,
       }
     hasBin: true
 
@@ -1103,10 +1104,10 @@ packages:
       }
     engines: { node: ">=14.16" }
 
-  smol-toml@1.6.1:
+  smol-toml@1.8.0:
     resolution:
       {
-        integrity: sha512-dWUG8F5sIIARXih1DTaQAX4SsiTXhInKf1buxdY9DIg4ZYPZK5nGM1VRIYmEbDbsHt7USo99xSLFu5Q1IqTmsg==,
+        integrity: sha512-kCZr2V3ch9i00x8zXRhjUNVcjG9ijES5dDudkXvUVCT5QlJNQWElSJdZqyPemffHoLNUYwOcou0Fy+ojN0uHSQ==,
       }
     engines: { node: ">= 18" }
 
@@ -1469,7 +1470,7 @@ snapshots:
 
   jiti@2.6.1: {}
 
-  js-yaml@4.3.0:
+  js-yaml@4.3.2:
     dependencies:
       argparse: 2.0.1
 
@@ -1554,14 +1555,14 @@ snapshots:
   markdownlint-cli2@0.22.1:
     dependencies:
       globby: 16.2.0
-      js-yaml: 4.3.0
+      js-yaml: 4.3.2
       jsonc-parser: 3.3.1
       jsonpointer: 5.0.1
       markdown-it: 14.2.0
       markdownlint: 0.40.0
       markdownlint-cli2-formatter-default: 0.0.6(markdownlint-cli2@0.22.1)
       micromatch: 4.0.8
-      smol-toml: 1.6.1
+      smol-toml: 1.8.0
     transitivePeerDependencies:
       - supports-color
 
@@ -1810,7 +1811,7 @@ snapshots:
 
   slash@5.1.0: {}
 
-  smol-toml@1.6.1: {}
+  smol-toml@1.8.0: {}
 
   source-map-js@1.2.1: {}
 
