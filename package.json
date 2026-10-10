@@ -15,7 +15,7 @@
     "validate": "pnpm check:format && pnpm check:markdown && pnpm build"
   },
   "dependencies": {
-    "pagefind": "^1.4.0",
+    "pagefind": "^1.5.2",
     "preact": "^10.27.3"
   },
   "devDependencies": {
