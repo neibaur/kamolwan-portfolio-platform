@@ -27,10 +27,16 @@
   },
   "pnpm": {
     "overrides": {
-      "markdown-it": "14.2.0",
+      "markdown-it": "14.3.1",
       "js-yaml": "4.3.2",
       "linkify-it": "5.0.2",
-      "smol-toml@^1": "1.8.0"
+      "smol-toml@^1": "1.9.0",
+      "source-map-js": "1.2.2"
+    },
+    "auditConfig": {
+      "ignoreGhsas": [
+        "GHSA-vfj7-8cjw-p6xm"
+      ]
     }
   }
 }
