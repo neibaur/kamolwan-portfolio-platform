@@ -28,3 +28,7 @@ hugoblox.yaml
 .hugo_build.lock
 hugo_stats.json
 package-lock.json
+
+# Written by pnpm, and by Dependabot, which does not run Prettier. Checking it
+# failed every Dependabot pull request.
+pnpm-lock.yaml
