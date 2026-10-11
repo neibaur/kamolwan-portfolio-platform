@@ -15,15 +15,15 @@
     "validate": "pnpm check:format && pnpm check:markdown && pnpm build"
   },
   "dependencies": {
-    "pagefind": "^1.4.0",
+    "pagefind": "^1.5.2",
     "preact": "^10.27.3"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.2.1",
-    "@tailwindcss/typography": "^0.5.19",
-    "markdownlint-cli2": "^0.22.1",
-    "prettier": "^3.6.2",
-    "tailwindcss": "^4.2.1"
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "markdownlint-cli2": "^0.23.3",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4.3.3"
   },
   "pnpm": {
     "overrides": {
