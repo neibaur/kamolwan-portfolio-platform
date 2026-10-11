@@ -15,8 +15,7 @@
     "validate": "pnpm check:format && pnpm check:markdown && pnpm build"
   },
   "dependencies": {
-    "pagefind": "^1.5.2",
-    "preact": "^10.27.3"
+    "pagefind": "^1.5.2"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.3",
@@ -27,7 +26,6 @@
   },
   "pnpm": {
     "overrides": {
-      "markdown-it": "14.3.1",
       "js-yaml": "4.3.2",
       "linkify-it": "5.0.2",
       "smol-toml@^1": "1.9.0",
